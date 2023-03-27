@@ -1,0 +1,100 @@
+/* Game.module.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 20px;
+}
+
+.title {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.gameArea {
+  width: 100%;
+  max-width: 800px;
+  margin-top: 20px;
+}
+
+.gameText {
+  height: 400px; /* Set a fixed height */
+  background-color: #000000;
+  border: 1px solid #ffffff;
+  padding: 20px;
+  overflow-y: auto; /* Enable vertical scrolling when content overflows */
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.commandForm {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.commandLabel {
+  color: #ffffff;
+  font-family: 'Courier New', Courier, monospace;
+  margin-right: 10px;
+}
+
+.commandInput {
+  flex-grow: 1;
+  background-color: #000000;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.submitButton {
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  padding: 5px 10px;
+  font-family: 'Courier New', Courier, monospace;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submitButton:hover {
+  background-color: #cccccc;
+}
+
+/* Game.module.css (Continued) */
+
+.footer {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.heart {
+  color: red;
+}
+
+.twitterIcon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.twitterIcon:hover {
+  color: #1da1f2; /* Change the color when hovering over the icon */
+}
