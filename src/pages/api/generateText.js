@@ -10,7 +10,7 @@ export default async function handler(req, res) {
         'https://api.openai.com/v1/completions',
         {
           model: 'text-davinci-003',
-          prompt: `You are an AI that helps users play a text-based adventure game. The user input is: "${userInput}".\n\nGame Response:`,
+          prompt: `You are an AI that helps users play a text-based adventure game. Make the game more challenging by introducing obstacles and difficulties. The user input is: "${userInput}".\n\nGame Response:`,
           max_tokens: 75,
           n: 1,
           stop: null,
