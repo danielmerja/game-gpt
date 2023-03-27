@@ -6,7 +6,7 @@ import NextImage from 'next/image'; // Import the Image component with an alias
 
 export default function Game() {
   const [userInput, setUserInput] = useState('');
-  const [gameText, setGameText] = useState('Welcome to the text-based adventure game!');
+  const [gameText, setGameText] = useState('Welcome to the AI text-based adventure game!');
   const gameTextArea = useRef(null);
 
   async function handleSubmit(e) {
@@ -26,7 +26,7 @@ export default function Game() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Text-based Adventure Game</title>
+        <title>AI Text-based Adventure Game</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
   
