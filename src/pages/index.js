@@ -62,7 +62,7 @@ export default function Game() {
   
       <footer className={styles.footer}>
         <p>
-          Made With <span className={styles.heart}>&hearts;</span> in NYC by Daniel{' '}
+          Made With <span className={styles.heart}>&hearts;</span> in NYC by Daniel Merja{' '}
           <a href="https://twitter.com/danielmerja" target="_blank" rel="noopener noreferrer" className={styles.twitterIcon}>
             <NextImage src="/twitter-icon.svg" alt="Twitter Icon" width={24} height={24} />
           </a>
