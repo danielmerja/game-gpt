@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import axios from 'axios';
 import Head from 'next/head';
 import styles from '../styles/Game.module.css';
@@ -22,6 +22,13 @@ export default function Game() {
 
     setUserInput('');
   }
+
+  useEffect(() => {
+    if (gameTextArea.current) {
+      gameTextArea.current.scrollTop = gameTextArea.current.scrollHeight;
+    }
+  }, [gameText]);
+  
 
   return (
     <div className={styles.container}>
