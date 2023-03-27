@@ -14,7 +14,7 @@ export default async function handler(req, res) {
           max_tokens: 150,
           n: 1,
           stop: null,
-          temperature: 0.8,
+          temperature: 1.0,
         },
         {
           headers: {
