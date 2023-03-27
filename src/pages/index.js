@@ -6,7 +6,7 @@ import NextImage from 'next/image'; // Import the Image component with an alias
 
 export default function Game() {
   const [userInput, setUserInput] = useState('');
-  const [gameText, setGameText] = useState('Welcome to the AI text-based adventure game!');
+  const [gameText, setGameText] = useState('Type a command to start playing!');
   const gameTextArea = useRef(null);
 
   async function handleSubmit(e) {
@@ -39,7 +39,7 @@ export default function Game() {
   
       <main className={styles.main}>
         <h1 className={styles.title}>GameGPT</h1>
-        <h2 className={styles.subtitle}>Powered by OpenAI</h2>
+        <h2 className={styles.subtitle}>AI text-based adventure game!</h2>
         <div className={styles.gameArea}>
           <pre ref={gameTextArea} className={styles.gameText}>
             {gameText}
