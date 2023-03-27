@@ -11,7 +11,7 @@ export default async function handler(req, res) {
         {
           model: 'text-davinci-003',
           prompt: `You are an AI that helps users play a text-based adventure game. The user input is: "${userInput}".\n\nGame Response:`,
-          max_tokens: 150,
+          max_tokens: 100,
           n: 1,
           stop: null,
           temperature: 1.0,
