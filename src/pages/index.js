@@ -39,7 +39,7 @@ export default function Game() {
   
       <main className={styles.main}>
         <h1 className={styles.title}>GameGPT</h1>
-        <h2 className={styles.subtitle}>AI text-based adventure game!</h2>
+        <h2 className={styles.subtitle}>AI text-based adventure game</h2>
         <div className={styles.gameArea}>
           <pre ref={gameTextArea} className={styles.gameText}>
             {gameText}
