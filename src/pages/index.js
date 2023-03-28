@@ -39,6 +39,31 @@ export default function Game() {
     <div className={styles.container}>
       <Head>
         <title>AI Text-based Adventure Game</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="description"
+          content="An AI-powered text-based adventure game created with OpenAI."
+        />
+        <meta property="og:title" content="AI Text-based Adventure Game" />
+        <meta
+          property="og:description"
+          content="An AI-powered text-based adventure game created with OpenAI."
+        />
+        <meta
+          property="og:image"
+          content="https://images.freeimages.com/images/large-previews/a9a/the-game-1287704.jpg"
+        />
+        <meta property="og:url" content="https://images.freeimages.com/images/large-previews/a9a/the-game-1287704.jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="AI Text-based Adventure Game" />
+        <meta
+          name="twitter:description"
+          content="An AI-powered text-based adventure game created with OpenAI."
+        />
+        <meta
+          name="twitter:image"
+          content="https://images.freeimages.com/images/large-previews/a9a/the-game-1287704.jpg"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
